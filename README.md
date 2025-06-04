@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png" alt="BiometricsAuthKit Banner" width="600"/>
+</p>
+
 # BiometricsAuthKit
 
 A lightweight Swift package to handle biometric authentication easily.
