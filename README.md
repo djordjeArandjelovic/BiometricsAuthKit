@@ -11,9 +11,9 @@ BiometricAuthenticator().authenticate { result in
     DispatchQueue.main.async {
         switch result {
         case .success:
-            // Handle success
+            Handle success
         case .failure:
-            // Handle failure
+            Handle failure
         }
     }
 }
