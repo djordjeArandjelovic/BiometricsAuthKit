@@ -8,5 +8,12 @@ Import `BiometricsAuthKit` and call:
 
 ```swift
 BiometricAuthenticator().authenticate { result in
-    // Handle result
+    DispatchQueue.main.async {
+        switch result {
+        case .success:
+            // Handle success
+        case .failure:
+            // Handle failure
+        }
+    }
 }
