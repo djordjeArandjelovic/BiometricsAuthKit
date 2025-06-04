@@ -6,7 +6,9 @@ import LocalAuthentication
 import Foundation
 
 @available(macOS 10.13.2, *)
-public final class BiometricsAuthenticator {
+public struct BiometricsAuthenticator {
+    
+    public init() { }
     
     public enum BiometricType {
         case touchID
