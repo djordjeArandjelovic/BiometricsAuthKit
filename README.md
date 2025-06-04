@@ -7,7 +7,7 @@ A lightweight Swift package to handle biometric authentication easily.
 Import `BiometricsAuthKit` and call:
 
 ```swift
-BiometricAuthenticator().authenticate { result in
+BiometricsAuthenticator().authenticate { result in
     DispatchQueue.main.async {
         switch result {
         case .success:
