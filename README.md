@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" alt="BiometricsAuthKit Banner" width="200"/>
+  <img src="banner_.png" alt="BiometricsAuthKit Banner" width="300"/>
 </p>
 
 # BiometricsAuthKit
