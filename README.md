@@ -65,7 +65,7 @@ case .none: print("No biometrics")
 
 ## Requirements
 
-- iOS 11.0+
+- iOS 16.0+
 - macOS 10.13.2+
 - Swift 5+
 
