@@ -1,3 +1,4 @@
+![BiometricsAuthKit](banner_.png)
 <p align="center">
   <img src="banner_.png" alt="BiometricsAuthKit Banner" width="300"/>
 </p>
