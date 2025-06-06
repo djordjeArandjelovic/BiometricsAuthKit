@@ -8,7 +8,7 @@
 import Foundation
 import Security
 
-public enum KeychainHelper {
+public enum Keychain {
     
     @discardableResult
     public static func save(key: String, value: String) -> Bool {
