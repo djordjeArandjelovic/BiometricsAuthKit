@@ -15,6 +15,14 @@
 
 ---
 
+## Requirements
+
+- iOS 16.0+
+- macOS 10.13.2+
+- Swift 5+
+
+---
+
 ## Installation
 
 ### Swift Package Manager
@@ -60,14 +68,6 @@ case .touchID: print("Touch ID available")
 case .none: print("No biometrics")
 }
 ```
-
----
-
-## Requirements
-
-- iOS 16.0+
-- macOS 10.13.2+
-- Swift 5+
 
 ---
 
