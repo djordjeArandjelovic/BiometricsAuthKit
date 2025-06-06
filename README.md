@@ -82,7 +82,7 @@ KeychainHelper (for convenience called "Keychain" in this package) is a lightwei
 
 Import `BiometricsAuthKit` and call:
 
-### Saving a token
+### Saving a Token
 ```swift
 let token = "your_access_token"
 let success = KeychainHelper.save(key: "access_token", value: token)
