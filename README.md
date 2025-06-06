@@ -42,9 +42,9 @@ BiometricsAuthenticator().authenticate { result in
     DispatchQueue.main.async {
         switch result {
         case .success:
-            print("✅ Auth successful")
+            print("Auth successful")
         case .failure:
-            print("❌ Auth failed")
+            print("Auth failed")
         }
     }
 }
@@ -106,9 +106,9 @@ if let token = KeychainHelper.load(key: "access_token") {
 ```swift
 let success = KeychainHelper.delete(key: "access_token")
 if success {
-    print("🗑️ Token deleted successfully")
+    print("Token deleted successfully")
 } else {
-    print("❌ Failed to delete token")
+    print("Failed to delete token")
 }
 ```
 ---
