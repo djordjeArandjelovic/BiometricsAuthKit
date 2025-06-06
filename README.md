@@ -71,5 +71,45 @@ case .none: print("No biometrics")
 
 ---
 
+# Aditional content
 
+## KeychainHelper
+KeychainHelper (for convenience called "Keychain" in this package) is a lightweight utility for securely storing and retrieving strings from the iOS Keychain.
+
+---
+
+## Usage
+
+Import `BiometricsAuthKit` and call:
+
+### Saving a token
+```swift
+let token = "your_access_token"
+let success = KeychainHelper.save(key: "access_token", value: token)
+if success {
+    print("Token saved successfully")
+} else {
+    print("Failed to save token")
+}
+```
+
+### Loading a Token
+```swift
+if let token = KeychainHelper.load(key: "access_token") {
+    print("Retrieved token: \(token)")
+} else {
+    print("No token found or failed to load")
+}
+```
+
+### Deleting a Token
+```swift
+let success = KeychainHelper.delete(key: "access_token")
+if success {
+    print("🗑️ Token deleted successfully")
+} else {
+    print("❌ Failed to delete token")
+}
+```
+---
 
