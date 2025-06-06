@@ -85,7 +85,7 @@ Import `BiometricsAuthKit` and call:
 ### Saving a Token
 ```swift
 let token = "your_access_token"
-let success = KeychainHelper.save(key: "access_token", value: token)
+let success = Keychain.save(key: "access_token", value: token)
 if success {
     print("Token saved successfully")
 } else {
@@ -95,7 +95,7 @@ if success {
 
 ### Loading a Token
 ```swift
-if let token = KeychainHelper.load(key: "access_token") {
+if let token = Keychain.load(key: "access_token") {
     print("Retrieved token: \(token)")
 } else {
     print("No token found or failed to load")
@@ -104,7 +104,7 @@ if let token = KeychainHelper.load(key: "access_token") {
 
 ### Deleting a Token
 ```swift
-let success = KeychainHelper.delete(key: "access_token")
+let success = Keychain.delete(key: "access_token")
 if success {
     print("Token deleted successfully")
 } else {
